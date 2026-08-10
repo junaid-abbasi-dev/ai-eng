@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #1a1a1a;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    max-width: fit-content;
+}
+header {
+    background-color: bisque;
+}
+.row {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
