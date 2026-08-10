@@ -8,7 +8,11 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
 }
 body {
-    max-width: fit-content;
+    max-width: 65ch;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
 }
 header {
     background-color: bisque;
