@@ -4,7 +4,7 @@
 
 h1 {
     color: #1a1a1a;
-    font-size: 2rem;
+    font-size: 2em;
     font-family: 'Courier New', Courier, monospace;
 }
 body {
@@ -13,6 +13,7 @@ body {
     padding: 1rem;
     font-family: system-ui, sans-serif;
     line-height: 1.6;
+    font-size: 20px;
 }
 header {
     background-color: bisque;
@@ -23,3 +24,14 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+a {
+    color: red;
+}
+.row a {
+    color: purple;
+}
+nav a {
+    color: green;
+}
+ul { font-size: 0.9rem;}
+li { font-size: 0.9rem;}
